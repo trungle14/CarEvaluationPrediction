@@ -9,10 +9,10 @@ Compare the performances of models using both approaches to determine which was 
 
 
 *Model Applied*
-Decision Tree
-KNN
-Logistic Regression
-Naive Bayes 
-Support Vector Machine (SVM)
-Using nested cross-validation
+Decision Tree\
+KNN\
+Logistic Regression\
+Naive Bayes \
+Support Vector Machine (SVM)\
+Using nested cross-validation\
 With different hyperparameter: maxdepth in decision tree, k value in the kNN model, and c value in Logistic regression, kernel and C in SVM then finalized the optimal hyperparameter to get highest performance on traning data but ensure not commmit overfitting by comparing with performance on validation dataset. After that, I would like to check the robust of the model by using cross-validation to check whether my model work well on the unseen data.
